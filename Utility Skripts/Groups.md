@@ -1,3 +1,5 @@
+Group skript with easily addable groups.
+```
 options:
 	Spectator: {Spectators::*}
 	Survivor: {Survivors::*}
@@ -29,3 +31,4 @@ every 30 seconds:
 		teleport loop-value to {warps::arena}
 	loop {@Spectator}:
 		teleport loop-value to {warps::spectate}
+```
